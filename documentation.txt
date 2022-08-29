@@ -1,6 +1,7 @@
 =================================================
 
--- github pages - ng deploy --base-href=/ng-abhinov/
+-- github pages - ng deploy --base-href=/ng-abhinov/ 
+OR ng deploy --base-href=/portfolio/
 
 ---------------- Installation -----------------------------
 
