@@ -5,7 +5,7 @@ import { LayoutComponent } from './theme/layout/layout.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/theme/view',
+    redirectTo: '',
     pathMatch: 'full'
   },
   {
