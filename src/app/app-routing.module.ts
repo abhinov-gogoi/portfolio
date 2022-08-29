@@ -5,19 +5,19 @@ import { LayoutComponent } from './theme/layout/layout.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '',
-    pathMatch: 'full'
-  },
-  {
-    path: 'theme',
     component: LayoutComponent,
     children: [
       {
-        path: 'view',
+        path: '',
         loadChildren: () => import('./view/view.module').then(module => module.ViewModule)
       }
     ]
-  }
+  },
+  {
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({

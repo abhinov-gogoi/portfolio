@@ -1,5 +1,7 @@
 =================================================
 
+-- github pages - ng deploy --base-href=/ng-abhinov/
+
 ---------------- Installation -----------------------------
 
 - Update latest node - nodejs
