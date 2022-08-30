@@ -1,6 +1,6 @@
 export class Config {
 
-  static theme_arr = ['vertical', 'collapsed'];
+  static theme_arr = ['vertical', 'collapsed', 'horizontal'];
   static themeType_arr = ['default', 'dark', 'light']
 
   // public static config = {
